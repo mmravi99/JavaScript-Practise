@@ -28,5 +28,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: mmravi99/BisCred.git
+        ref: main
         path: ./
         token: ${{ secrets.GITHUB_TOKEN }}
