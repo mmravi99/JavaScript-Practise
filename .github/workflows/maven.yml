@@ -31,3 +31,6 @@ jobs:
         ref: main
         path: ./
         token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Run Selenium tests
+      run: |
+          ls -l          
