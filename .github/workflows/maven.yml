@@ -27,6 +27,6 @@ jobs:
     - name: Checkout selenium tests repository
       uses: actions/checkout@v2
       with:
-        repository: https://github.com/mmravi-org/BisCred.git
+        repository: mmravi99/BisCred.git
         path: BisCred
         token: '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'
